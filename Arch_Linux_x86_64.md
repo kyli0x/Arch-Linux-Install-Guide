@@ -2,7 +2,7 @@
 
 ## Copying ISO onto USB
 ```
-dd bs=4M if/path/to/<file.iso> of=/dev/sd<X> conv=fsync oflag=direct status=progress
+dd bs=4M if=/path/to/<file.iso> of=/dev/sd<X> conv=fsync oflag=direct status=progress
 ```
 
 
