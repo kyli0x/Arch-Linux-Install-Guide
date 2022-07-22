@@ -189,5 +189,5 @@ git config --global init.defaultBranch main # default branch to main (for rust-l
 Disable Touchpad: (look for coorect ID number for thinkpad in your list results)
 ```shell
 xinput list
-xinput set-prop <##> "Device Enabled" 0
+xinput set-prop ## "Device Enabled" 0
 ```
