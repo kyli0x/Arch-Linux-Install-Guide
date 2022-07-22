@@ -186,8 +186,8 @@ git config --global user.name "<username>"
 git config --global user.email "<user_email>"
 git config --global init.defaultBranch main # default branch to main (for rust-lang)
 ```
-Disable Touchpad: (look for coorect ID number for thinkpad in your list results)
+Disable Touchpad:
 ```shell
 xinput list
-xinput set-prop ## "Device Enabled" 0
+xinput set-prop ## "Device Enabled" 0 # use ID number found in xinput list
 ```
